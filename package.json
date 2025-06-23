@@ -1,0 +1,76 @@
+{
+ 
+  "scripts": {
+ 
+   
+  "start": "cross-env NODE_ENV=development nodemon app.js",
+  "prod": "cross-env NODE_ENV=production nodemon app.js"
+ 
+  },
+ 
+  "dependencies": {
+ 
+   
+  "cookie-parser": "^1.4.7",
+ 
+   
+  "dotenv": "^16.5.0",
+ 
+   
+  "ejs": "^3.1.10",
+ 
+   
+  "express": "^5.1.0",
+ 
+   
+  "express-validator": "^7.2.1",
+ 
+   
+  "mongoose": "^8.16.0",
+ 
+   
+  "multer": "^2.0.1"
+ 
+  },
+ 
+  "name": "noman-hasan-chat-application",
+ 
+  "version": "1.0.0",
+ 
+  "description": "noman-hasan-chat-application",
+ 
+  "main": "app.js",
+ 
+  "devDependencies": {
+ 
+   
+  "cross-env": "^7.0.3",
+ 
+   
+  "nodemon": "^3.1.10"
+ 
+  },
+ 
+  "repository": {
+ 
+   
+  "type": "git",
+ 
+   
+  "url": "git+https://github.com/Noman-Hasan-Dev/Chat_Application.git"
+ 
+  },
+ 
+  "author": "",
+ 
+  "license": "ISC",
+ 
+  "bugs": {
+ 
+   
+  "url": "https://github.com/Noman-Hasan-Dev/Chat_Application/issues"
+ 
+  },
+ 
+  "homepage": "https://github.com/Noman-Hasan-Dev/Chat_Application#readme"
+}
